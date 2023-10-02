@@ -78,4 +78,4 @@ app.delete('/api/comments/:id', (req, res) => {
     // send error response
     res.status(404).json({ msg: `No comment with id ${id}` });
   }
-  //
+});
